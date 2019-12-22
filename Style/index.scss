@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+
+html , body {
+    height: 100%;
+}
+
+body{
+    nav{
+        text-decoration: none;
+        font-family: 'Gelasio', serif;
+    }
+
+    .content{
+        
+        background-image: url(../images/sebastian-tiplea-xCQlbHO8cCQ-unsplash.jpg);
+
+        h1{
+            color: white;
+        }
+
+        
+    }
+}

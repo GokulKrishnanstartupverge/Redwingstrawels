@@ -3,16 +3,21 @@ html, body {
   height: 100%;
 }
 
+body .masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../images/landscape.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body .masthead h1 {
+  color: white;
+}
+
 body nav {
   text-decoration: none;
   font-family: 'Gelasio', serif;
-}
-
-body .content {
-  background-image: url(../images/sebastian-tiplea-xCQlbHO8cCQ-unsplash.jpg);
-}
-
-body .content h1 {
-  color: white;
 }
 /*# sourceMappingURL=index.css.map */

@@ -5,19 +5,23 @@ html , body {
 }
 
 body{
+
+    .masthead {
+        height: 100vh;
+        min-height: 500px;
+        background-image: url('../images/landscape.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        h1{
+            color: white;
+        }
+      }
+
     nav{
         text-decoration: none;
         font-family: 'Gelasio', serif;
     }
 
-    .content{
-        
-        background-image: url(../images/sebastian-tiplea-xCQlbHO8cCQ-unsplash.jpg);
-
-        h1{
-            color: white;
-        }
-
-        
-    }
+    
 }

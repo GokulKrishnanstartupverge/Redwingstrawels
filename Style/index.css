@@ -6,7 +6,7 @@ html, body {
 body .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url("../images/landscape.jpg");
+  background-image: url("../images/david-marcu-78A265wPiO4-unsplash.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,6 +18,19 @@ body .masthead h1 {
 
 body nav {
   text-decoration: none;
-  font-family: 'Gelasio', serif;
+}
+
+body .aboutus .container {
+  font-size: 46px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+}
+
+body .my-4 {
+  padding: 70px;
+}
+
+body .my-4 h1 {
+  padding-bottom: 30px;
 }
 /*# sourceMappingURL=index.css.map */
